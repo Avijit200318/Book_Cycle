@@ -1,46 +1,49 @@
 <!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignIn</title>
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="app.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sing In</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="app.css">
 </head>
-
 <body>
-    <div class="container">
-        <div class="forms-container">
-            <div class="signin-signup">
-                <form class="sign-in-form">
-                    <h2 class="title">Sign In</h2>
-                    <div class="input-field">
-                        <i class='bx bxs-user'></i>
-                        <input type="text" placeholder="Username/Email Id">
-                    </div>
-                    <div class="input-field">
-                        <i class='bx bxs-lock-alt'></i>
-                        <input type="password"  placeholder="Password">
-                    </div>
-                    <a href="./home.html"><input id="submit" type="button" value="Sign In" class="btn solid"></a>
-                    <!-- <input type="submit" value="Sign In" class="btn solid"> -->
-                    <p class="social-text">New to BookCycle?</p>
-                    <a href="SignUp.html">Create your BookCycle account</a>
-                </form>
-            </div>
-        </div>
-        <div class="panels-container">
-            <div class="panel left-panel">
-                <div class="content">
-                    <h3>BookCycle</h3>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form action="#">
+        <input type="text" placeholder="Enter your email">
+        <input type="password" placeholder="Enter your password">
+        <a href="#">Forgot password?</a>
+        <a href="./home.html"><input type="button" class="button" value="Login"></a>
+        <!-- <input type="button" class="button" value="Login"> -->
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+          <a href="./SignUp.html">
+            <label>Signup</label>
+          </a>
+          <!-- <label for="check">Signup</label> -->
+        </span>
+      </div>
     </div>
-    </div>    
+    <!-- <div class="registration form">
+      <header>Signup</header>
+      <form action="#">
+        <input type="text" placeholder="Enter your email">
+        <input type="password" placeholder="Create a password">
+        <input type="password" placeholder="Confirm your password">
+        <input type="button" class="button" value="Signup">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div> -->
+  </div>
 </body>
-    <script src="try.js"></script>
 </html>
