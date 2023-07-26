@@ -31,7 +31,7 @@ body{
   left: 50%;
   transform: translate(-50%,-50%);
   max-width: 430px;
-  width: 100%;
+/*   width: 100%; */
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 5px 10px #fff;
