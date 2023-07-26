@@ -117,5 +117,6 @@ body{
 @media (max-width: 767px) {
   .container{
     width:90vw;
+    top:72%;
   }
 }
