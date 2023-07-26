@@ -14,6 +14,19 @@ body{
 }
 .container{
   position: absolute;
+  /* top: 50%; */
+  top:60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px #fff;
+}
+#signIn{
+  position: absolute;
+  /* top: 50%; */
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -91,7 +104,16 @@ body{
 .signup label:hover{
   text-decoration: underline;
 }
-
+.front{
+  color:white;
+  font-size:30px;
+  text-align:center;
+}
+#logo{
+  width:40px;
+  position:relative;
+  top:10px;
+}
 @media (max-width: 767px) {
   .container{
     width:90vw;
