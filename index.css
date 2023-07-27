@@ -68,6 +68,10 @@ footer {
     /* Adjust the padding as needed */
     /* text-align: center; */
 }
+#foot{
+    background-color: black;
+    color:white;
+  }
 a{
     text-decoration:none;
     color:white;
